@@ -149,22 +149,7 @@ img:hover+figcaption {
 }
 
 
-/* Small device - iPhone 5/E - 320px */
-
-@media (max-width: 320px) {
-    .welcome-section {
-        display: flex;
-        top: 0;
-        margin-top: 10vh;
-    }
-    .footer {
-        max-width: 320px;
-    }
-    .bottom-navbar {
-        display: flex;
-        flex-direction: column;
-    }
-}
+/* Medium device - 640px */
 
 @media (max-width: 640px) {
     .welcome-section {
